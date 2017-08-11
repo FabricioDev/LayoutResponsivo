@@ -22,77 +22,64 @@
 		<nav class="MenuPontas">
 			<!-- Início MenuCentro -->
 			<nav class="MenuCentro">
-				<div class="logo pull-left"><a href="#"><img src="img/icones/SIMFLEX_mono.png" alt="Simflex"></a></div>
+				<div class="logo pull-left">
+<!--
+				<a href="#"><img src="img/icones/SIMFLEX_mono.png" alt="Simflex"></a>
+-->
+				</div>
 				<div class="Entrar pull-right"><a href="#"><img src="img/entrar.png" style="width: 50%;" alt="Entrar"></a></div>
 			</nav>
 			<!-- Fim MenuCentro -->
 			<!-- Início ContDinamico -->
 			<nav class="ContDinamico">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-6">
 						<div class="logoIES">
-							<a href="#"><img src="img/logo_inst_1.png" class="BotoesFav" alt=""></a>
+							<a href="#"><img src="img/logo_inst_1.png" alt=""></a>
 						</div>
 					</div>
 					<div class="col-md-1 MenuFav">
-						<a href="#" class="LinkFav1">
-						<img src="img/icones_svg/planos_out.svg" class="BotoesFav1 img-responsive" alt="Planos Pagamentos" title="Planos Pagamentos"><p>Planos Pagamentos</p>
-						</a>
+						<a href="#" class="LinkFav">
+							<img src="img/icones/planos_out.png" class="BotoesFav" alt="Mensalidade" title="Mensalidade"><p>Mensalidade</p></a>
 					</div>
-					<div class="col-md-1">
-						&nbsp;
+					<div class="col-md-1 MenuFav" >
+						<a href="#" class="LinkFav">
+							<img src="img/icones_svg/beneficos_out.svg" class="BotoesFav" alt="Benefícios" title="Benefícios"><p>Benefícios</p></a>
 					</div>
 					<div class="col-md-1 MenuFav">
 						<a href="#" class="LinkFav">
-							<img src="img/icones_svg/beneficos_out.svg" class="BotoesFav img-responsive" alt="Benefícios" title="Benefícios">Benefícios
-						</a>
-					</div>
-					<div class="col-md-1">
-						&nbsp;
+							<img src="img/icones_svg/decontos_out.svg" class="BotoesFav" alt="Deduções" title="Deduções"><p>Deduções</p></a>
 					</div>
 					<div class="col-md-1 MenuFav">
 						<a href="#" class="LinkFav">
-							<img src="img/icones_svg/decontos_out.svg" class="BotoesFav img-responsive" alt="Deduções" title="Deduções">
-							Deduções
-						</a>
-					</div>
-					<div class="col-md-1">
-						&nbsp;
-					</div>
-					<div class="col-md-1 MenuFav">
-						<a href="#" class="LinkFav">
-							<img src="img/icones_svg/simula_out.svg" class="BotoesFav img-responsive" title="Matrícula" alt="Matrícula">Matrícula
-						</a>
-					</div>
-					<div class="col-md-1">
-						&nbsp;
+							<img src="img/icones_svg/simula_out.svg" class="BotoesFav" title="Matrícula" alt="Matrícula"><p>Matrícula</p></a>
 					</div>
 				</div>
 			</nav>
 			<!-- Fim ContDinamico -->
 			<!-- Início MenuInfFav -->
-		<!--	<nav class="MenuInfFav">
+			<nav class="MenuInfFav">
 				<div class="col-md-3">
 					<div class="topo">
-						<a href="#" class="icone_menu"><i class="material-icons">dehaze</i></a>
+						<a href="#" class="icone_menu"  class="material-icons">Menu</i></a>
 					</div>
-					
-					<nav class="menu">
-						<a href="#" class="item_menu">Grupo Educacional</a>
-						<a href="#" class="item_menu">Mantenedora</a>
-						<a href="#" class="item_menu">IES</a>
-						<a href="#" class="item_menu">Parâmetros</a>
-						<a href="#" class="item_menu">Aluno</a>
-						<a href="#" class="item_menu">Relatório</a>
-					</nav> -->
+					<ul >
+						<li><a href="#">Menu</a></li>
 
+						<li><a href="#" class="item_menu">Grupo Educacional</a></li>
+						<li><a href="#" class="item_menu">Mantenedora</a></li>
+						<li><a href="#" class="item_menu">IES</a></li>
+						<li><a href="#" class="item_menu">Parâmetros</a></li>
+						<li><a href="#" class="item_menu">Aluno</a></li>
+						<li><a href="#" class="item_menu">Relatório</a></li>
+					</ul>
 					<!--
 					<a href="#" class="Menuinf">
 					Menu</a>
-					
+					-->
 				</div>
 				<div class="col-md-9">&nbsp;</div>
-			</nav> -->
+			</nav>
 			<!-- Fim MenuInfFav -->
 		</nav>
 		<!-- Fim MenuPontas -->
@@ -100,21 +87,8 @@
 	<!-- Fim do Cabeçalho -->
 	<!-- Início do Conteúdo -->
 	<main>
-		<!-- Início Menu Pure Css -->
-		<ul class="navigation">
-			<li class="nav-item"><a href="#">Grupo Educacional</a></li>
-			<li class="nav-item"><a href="#">Mantenedora</a></li>
-			<li class="nav-item"><a href="#">IES</a></li>
-			<li class="nav-item"><a href="#">Parâmetros</a></li>
-			<li class="nav-item"><a href="#">Aluno</a></li>
-			<li class="nav-item"><a href="#">Relatório</a></li>
-		</ul>
-
-		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-		<label for="nav-trigger"></label>
-		<!-- Fim Menu Pure Css -->
-		<div class="site-wrap">
 		<!-- Início Carousel -->
+
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -127,28 +101,28 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="img/slider/PlanoPagamento.png" class="img-responsive" style="width: 100%; height: 568px" alt="...">
+		      <img src="img/slider/PlanoPagamento.png" class="imgCarousel" alt="Planos de Pagamento">
 		      <div class="carousel-caption">
-		      <h3 class="CabecalhoSlider">Planos Pagamentos</h3>
+		      <h3 class="CabecalhoSlider">Planos de Pagamento</h3>
 		        <!-- Posso colocar um texto aqui, P ou H3 -->
 		      </div>
 		    </div>
 		    <div class="item">
-		      <img src="img/slider/Beneficios.jpg" class="img-responsive" style="width: 100%; height: 568px" alt="...">
+		      <img src="img/slider/Beneficios.jpg" class="imgCarousel" alt="Benefícios">
 		      <div class="carousel-caption">
 		      	<h3 class="CabecalhoSlider">Benefícios</h3>
 		        <!-- Posso colocar um texto aqui, P ou H3 -->
 		      </div>
 		    </div>
 		    <div class="item">
-		      <img src="img/slider/Deducoes.jpg" class="img-responsive" style="width: 100%; height: 568px" alt="...">
+		      <img src="img/slider/Deducoes.jpg" class=" imgCarousel" alt="Deduções">
 		      <div class="carousel-caption">
 		      	<h3 class="CabecalhoSlider">Deduções</h3>
 		        <!-- Posso colocar um texto aqui, P ou H3 -->
 		      </div>
 		    </div>
 		    <div class="item">
-		      <img src="img/slider/Simulador.jpg" class="img-responsive" style="width: 100%; height: 568px" alt="...">
+		      <img src="img/slider/Simulador.jpg" class="imgCarousel" alt="Simulador">
 		      <div class="carousel-caption">
 		      <h3 class="CabecalhoSlider">Simulador</h3>
 		        <!-- Posso colocar um texto aqui, P ou H3 -->
@@ -160,22 +134,21 @@
 		  <!-- Controls -->
 		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		    <span class="sr-only">Anterior</span>
+		    <span class="sr-only">Previous</span>
 		  </a>
 		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		    <span class="sr-only">Próximo</span>
+		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
 		<!-- Fim Carousel -->
-		</div> <!-- Fim site-wrap -->
 	</main>
 	<!-- Fim do Conteúdo -->
 	<!-- Início do Rodapé -->
-	<footer class="footer">
+	<footer class="navbar navbar-fixed-bottom">
 		<nav class="RodapePontas">
 			<nav class="RodapeCentro">
-				<p>Prover Educacional - Simflex</p>
+				<a href="#"><img src="img/icones/SIMFLEX_mono.png" alt="Simflex"></a>
 			</nav>
 		</nav>
 	</footer>
