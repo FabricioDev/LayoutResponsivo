@@ -90,12 +90,14 @@ a.LinkFav{
 .LinkFav>img:hover{
  border: 4px solid #a9bf57;
 
- margin-top: 15.5px;
- margin-right: 2px;
+ margin-top: 16px;
+ margin-right: 4px;
+ margin-left:  4px;
+ margin-bottom: 28px;
 
  border-radius: 10px;
- width: 55px;
- height: 55px;
+ width: 56px;
+ height: 56px;
 }
 a{
   text-decoration: none!important;
@@ -106,7 +108,6 @@ a:visited{
 .BotoesFav>img:houver
 {
 	margin-top: 20px;
-  	margin-bottom: 15px;
 }
 .BotoesFav
 {
