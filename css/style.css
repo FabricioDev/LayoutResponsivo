@@ -73,32 +73,63 @@ style* { margin: 0 auto; font-family: sans-serif; }
   text-align: center;
 }
 
+a.LinkFav1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 a.LinkFav{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.LinkFav1
+{
+  color: #fff;
+  margin-left: 60px;
 }
 .LinkFav
 {
   color: #fff;
   margin-left: 60px;
 }
+
+
+.LinkFav1:hover{
+  color: #a9bf57;
+  text-decoration: none;
+}
 .LinkFav:hover{
   color: #a9bf57;
   text-decoration: none;
 }
-.LinkFav>img:hover{
+
+.LinkFav1>img:hover{
  border: 4px solid #a9bf57;
 
- margin-top: 16px;
- margin-right: 4px;
- margin-left:  4px;
- margin-bottom: 28px;
+ margin-top: 16.3px;
+ margin-bottom: 27px;
 
+ margin-right: 2px;
+ margin-left:  2.2px;
  border-radius: 10px;
- width: 56px;
- height: 56px;
+ width: 56.8px;
+ height: 56.8px;
 }
+
+.LinkFav>img:hover{
+ border: 4px solid #a9bf57;
+ margin-top: 16.3px;
+ margin-bottom: 27px;
+
+ margin-right: 2px;
+ margin-left:  2px;
+ border-radius: 10px;
+ width: 56.8px;
+ height: 56.8px;
+}
+
 a{
   text-decoration: none!important;
 }
