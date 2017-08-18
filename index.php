@@ -7,6 +7,8 @@
 	<title>Novo Template Simflex</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,8 +18,13 @@
     <![endif]-->
 </head>
 <body>
+	<div class="btnVoltar jbtnVoltar">
+			<a href="" class="btnVoltar-link jbtnVoltar-link"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>Voltar ao Topo</a>
+		</a>
+	</div>
 	<!-- Início do Cabeçalho -->
 	<header>
+
 		<!-- Início MenuPontas -->
 		<nav class="MenuPontas">
 			<!-- Início MenuCentro -->
@@ -27,7 +34,13 @@
 				<a href="#"><img src="img/icones/SIMFLEX_mono.png" alt="Simflex"></a>
 -->
 				</div>
-				<div class="Entrar pull-right"><a href="#"><img src="img/entrar.png" style="width: 50%;" alt="Entrar"></a></div>
+				<div class="Entrar pull-right">
+
+
+
+				<a href="#"><img src="img/entrar.png" style="width: 50%;" alt="Entrar"></a>
+
+				</div>
 			</nav>
 			<!-- Fim MenuCentro -->
 			<!-- Início ContDinamico -->
@@ -39,21 +52,20 @@
 						</div>
 					</div>
 					<div class="col-md-1 MenuFav">
-						<div class="MenuFavIMG"></div>
-						<a href="#" class="LinkFav">
-							<img src="img/icones/planos_out.png" class="BotoesFav" alt="Mensalidade" title="Mensalidade">Mensalidade</a>
+						<a href="#carousel-example-generic" class="LinkFav1" data-slide-to="0">
+							<img src="img/icones/mensalidade_out.png" class="BotoesFav1" alt="Mensalidade" title="Mensalidade">Mensalidade</a>
 					</div>
 					<div class="col-md-1 MenuFav">
-						<a href="#" class="LinkFav">
+						<a href="#carousel-example-generic" class="LinkFav" data-slide-to="1">
 							<img src="img/icones_svg/beneficos_out.svg" class="BotoesFav" alt="Benefícios" title="Benefícios">Benefícios</a>
 					</div>
 					<div class="col-md-1 MenuFav">
-						<a href="#" class="LinkFav">
+						<a href="#carousel-example-generic" class="LinkFav" data-slide-to="2">
 							<img src="img/icones_svg/decontos_out.svg" class="BotoesFav" alt="Deduções" title="Deduções">Deduções</a>
 					</div>
 					<div class="col-md-1 MenuFav">
-						<a href="#" class="LinkFav">
-							<img src="img/icones_svg/simula_out.svg" class="BotoesFav" title="Matrícula" alt="Matrícula">Matrícula</a>
+						<a href="#carousel-example-generic" class="LinkFav" data-slide-to="3">
+							<img src="img/icones/matricula_out_peq.png" class="BotoesFav2" title="Matrícula" alt="Matrícula">Matrícula</a>
 					</div>
 					<div class="col-md-1 MenuFav">
 					&nbsp;
@@ -67,17 +79,18 @@
 					<div class="topo">
 						<!--<a href="#" class="icone_menu"  class="material-icons">Menu</i></a> -->
 					</div>
-					<ul >
-						<li><a href="#">Menu</a>
+<!--
+						<a href="#" style="color: #fff; " class="Menuinf">Menu</a>
+<!--
+						<a href="#" class="item_menu">Grupo Educacional</a>
+						<a href="#" class="item_menu">Mantenedora</a>
+						<a href="#" class="item_menu">IES</a>
+						<a href="#" class="item_menu">Parâmetros</a>
+						<a href="#" class="item_menu">Aluno</a>
+						<a href="#" class="item_menu">Relatório</a>
+						-->
 
-						<li><a href="#" class="item_menu">Grupo Educacional</a></li>
-						<li><a href="#" class="item_menu">Mantenedora</a></li>
-						<li><a href="#" class="item_menu">IES</a></li>
-						<li><a href="#" class="item_menu">Parâmetros</a></li>
-						<li><a href="#" class="item_menu">Aluno</a></li>
-						<li><a href="#" class="item_menu">Relatório</a></li>
-						</li>
-					</ul>
+
 					<!--
 					<a href="#" class="Menuinf">
 					Menu</a>
@@ -93,44 +106,39 @@
 	<!-- Início do Conteúdo -->
 	<main>
 		<!-- Início Carousel -->
-
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-		  </ol>
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
 		      <img src="img/slider/PlanoPagamento.png" class="imgCarousel" alt="Planos de Pagamento">
 		      <div class="carousel-caption">
-		      <h3 class="CabecalhoSlider">Planos de Pagamento</h3>
-		        <!-- Posso colocar um texto aqui, P ou H3 -->
+		      		<h3 class="CabecalhoSlider">Mensalidade</h3>
+
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="img/slider/Beneficios.jpg" class="imgCarousel" alt="Benefícios">
 		      <div class="carousel-caption">
 		      	<h3 class="CabecalhoSlider">Benefícios</h3>
-		        <!-- Posso colocar um texto aqui, P ou H3 -->
+
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="img/slider/Deducoes.jpg" class="imgCarousel" alt="Deduções">
 		      <div class="carousel-caption">
 		      	<h3 class="CabecalhoSlider">Deduções</h3>
-		        <!-- Posso colocar um texto aqui, P ou H3 -->
+
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="img/slider/Simulador.jpg" class="imgCarousel" alt="Simulador">
 		      <div class="carousel-caption">
-		      <h3 class="CabecalhoSlider">Simulador</h3>
-		        <!-- Posso colocar um texto aqui, P ou H3 -->
+		      <!-- <div  style="background-color: rgba(38, 48, 87, 0.5)">-->
+		      	<h3 class="CabecalhoSlider">Matrícula</h3>
+
+		      </div>
+
 		      </div>
 		    </div>
 		    <!-- Posso colocar um texto aqui, P ou H3 -->
@@ -139,14 +147,15 @@
 		  <!-- Controls -->
 		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
+		    <span class="sr-only">Anterior</span>
 		  </a>
 		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
+		    <span class="sr-only">Próximo</span>
 		  </a>
 		</div>
-		<!-- Fim Carousel -->
+		
+
 	</main>
 	<!-- Fim do Conteúdo -->
 	<!-- Início do Rodapé -->

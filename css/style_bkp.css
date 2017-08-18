@@ -1,0 +1,403 @@
+html, body {
+  background-color: #E4E7E8;
+  font-family:sans-serif;
+  height: 50% auto;
+    margin: 0 auto;
+}
+main{
+  position: relative;
+  margin: 0 auto;
+  top: 168px;
+  width: 1000px;
+  max-width: 1000px;
+  background-color: #fff;
+}
+
+style* { margin: 0 auto; font-family: sans-serif; }
+
+.MenuCentro
+{
+  margin: 0 auto;
+  top: 0px;
+  width: 1000px;
+  background-color: #354377;
+  height: 39.5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #C1C1C1;
+}
+.MenuPontas
+{
+  float: top;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: #263057;
+  z-index: 0;
+  height: 40px;
+  border-bottom: 3px solid #C1C1C1;
+}
+
+.ContDinamico{
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #fff;
+  height: 93px;
+  border-bottom: 7px solid #6D9F4D;
+}
+.logoIES
+{
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.logo
+{
+  margin-top: 3px;
+}
+
+.BotoesFav
+{
+  margin-top: 20px;
+  margin-bottom: 31px;
+  width: 49px;
+  height: 49px;
+}
+.BotoesFav.a:hover{
+  border-width: 4px;
+  border-color: #a9bf57;
+  width: 54px;
+  height: 54px;
+}
+
+.MenuInfFav
+{
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 10px;
+  height: 35px;
+  background-color: #354377;
+  text-align: center;
+}
+.MenuFav{
+  height: 0px;
+  z-index: 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.LinkFav1:hover{
+  color: #a9bf57;
+}
+a.LinkFav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LinkFav
+{
+  color: #fff;
+  margin-left: 180px;
+}
+.LinkFav:hover{
+  color: #a9bf57;
+  text-decoration: none;
+}
+.LinkFav>img:hover{
+ border: 4px solid #a9bf57;
+ margin-top: 20px;
+ border-radius: 10px;
+ width: 49px;
+ height: 49px;
+}
+a{
+  text-decoration: none!important;
+}
+a:visited{
+  color: white;
+}
+
+
+.RodapeCentro
+{
+  position: relative;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #354377;
+  height: 35px;
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+
+}
+
+.RodapePontas
+{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #263057;
+  z-index: 0;
+  height: 35px;
+}
+.RodapeCentro.p.blocktext{
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.Entrar{
+  margin-right: 2px;
+  margin-top: 2px;
+  width: 5%;
+}
+
+.imgCarousel
+{
+  width: 100%;
+  height: 520px !important;
+}
+
+.borda
+{
+  border-right: 2px solid #C1C1C1;
+  border-left: 2px solid #C1C1C1;
+}
+
+.CabecalhoSlider
+{
+  color: #a9bf57;
+}html, body {
+	background-color: #E4E7E8;
+	font-family:sans-serif;
+	height: 50% auto;
+    margin: 0 auto;
+}
+main{
+	position: relative;
+	margin: 0 auto;
+	top: 168px;
+	width: 1000px;
+	max-width: 1000px;
+	background-color: #fff;
+}
+
+style* { margin: 0 auto; font-family: sans-serif; }
+
+.MenuCentro
+{
+	margin: 0 auto;
+	top: 0px;
+	width: 1000px;
+	background-color: #354377;
+	height: 39.5px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #C1C1C1;
+}
+.MenuPontas
+{
+	float: top;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background-color: #263057;
+	z-index: 0;
+	height: 40px;
+	border-bottom: 3px solid #C1C1C1;
+}
+
+.ContDinamico{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #fff;
+	height: 93px;
+	border-bottom: 7px solid #6D9F4D;
+}
+.logoIES
+{
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.logo
+{
+	margin-top: 3px;
+}
+
+.BotoesFav
+{
+	margin-top: 20px;
+	margin-bottom: 31px;
+	width: 49px;
+	height: 49px;
+	margin-left: 15px;
+}
+.BotoesFav1
+{
+	margin-top: 20px;
+	margin-bottom: 35px;
+	width: 49px;
+	height: 49px;
+	margin-left: 15px;
+}
+.BotoesFav.a:hover{
+	border-width: 4px;
+	border-color: #a9bf57;
+	width: 54px;
+	height: 54px;
+}
+.BotoesFav1.a:hover{
+	border-width: 4px;
+	border-color: #a9bf57;
+	width: 53px;
+	height: 53px;
+}
+
+.MenuInfFav
+{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	padding-top: 10px;
+	height: 35px;
+	background-color: #354377;
+	text-align: center;
+}
+.MenuFav{
+	height: 0px;
+	z-index: 1;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 15px;
+
+	text-align: center;
+}
+.MenuFav .p
+{
+	line-height: 120px;
+}
+.LinkFav1:hover{
+	color: #a9bf57;
+	text-decoration: none;
+
+	text-align: center;
+}
+.LinkFav
+{
+	color: #fff;
+	text-align: center;
+	margin-left: 0px;
+
+}
+.LinkFav:hover{
+	color: #a9bf57;
+	text-decoration: none;
+	text-align: center;
+}
+.LinkFav>img:hover{
+    border: 4px solid #a9bf57;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 10px;
+    width: 53px;
+  	height: 53px;
+}
+a{
+  text-decoration: none!important;
+  text-align: center;
+}
+a:visited{
+	text-align: center;
+  color: white;
+}
+/*
+.LinkFav1
+{
+	color: #fff;
+	font-size: 12.2px;
+	line-height: 13px;
+	text-align: center;
+}
+.LinkFav1>img:hover{
+  border: 4px solid #a9bf57;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  width: 49px;
+  height: 49px;
+}
+
+*/
+
+
+
+
+/*
+.LinkFav>img:hover{
+  	border: 4px solid #a9bf57;
+  	margin-top: 20px;
+  	margin-left: 10px;
+  	border-radius: 10px;
+  	margin-bottom: 35px;
+  	width: 49px;
+	height: 49px;
+}
+*/
+
+.RodapeCentro
+{
+	position: relative;
+	bottom: 0px;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #354377;
+	height: 35px;
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+.RodapePontas
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #263057;
+	z-index: 0;
+	height: 35px;
+}
+.RodapeCentro.p.blocktext{
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.Entrar{
+	margin-right: 2px;
+	margin-top: 2px;
+	width: 5%;
+}
+
+.imgCarousel
+{
+	width: 100%;
+	height: 520px !important;
+}
+
+.borda
+{
+	border-right: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+}
+
+.CabecalhoSlider
+{
+	color: #a9bf57;
+}
